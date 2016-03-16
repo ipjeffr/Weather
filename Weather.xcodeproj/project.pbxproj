@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		12E6125B1C501E0F0017AB28 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 12E6125A1C501E0F0017AB28 /* Launch Screen.storyboard */; };
+		31DA9DE71C99B5A90002C16A /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DA9DE61C99B5A90002C16A /* City.m */; };
+		31DA9DEA1C99C4DE0002C16A /* CityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DA9DE91C99C4DE0002C16A /* CityViewController.m */; };
+		31DA9DED1C99DDB80002C16A /* DetailedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31DA9DEC1C99DDB80002C16A /* DetailedViewController.m */; };
 		60ADD94B1989CFDB0086A6BC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ADD94A1989CFDB0086A6BC /* Foundation.framework */; };
 		60ADD94D1989CFDB0086A6BC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ADD94C1989CFDB0086A6BC /* CoreGraphics.framework */; };
 		60ADD94F1989CFDB0086A6BC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60ADD94E1989CFDB0086A6BC /* UIKit.framework */; };
@@ -47,6 +50,12 @@
 
 /* Begin PBXFileReference section */
 		12E6125A1C501E0F0017AB28 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		31DA9DE51C99B5A90002C16A /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		31DA9DE61C99B5A90002C16A /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		31DA9DE81C99C4DE0002C16A /* CityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CityViewController.h; sourceTree = "<group>"; };
+		31DA9DE91C99C4DE0002C16A /* CityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CityViewController.m; sourceTree = "<group>"; };
+		31DA9DEB1C99DDB80002C16A /* DetailedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailedViewController.h; sourceTree = "<group>"; };
+		31DA9DEC1C99DDB80002C16A /* DetailedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailedViewController.m; sourceTree = "<group>"; };
 		60ADD9471989CFDB0086A6BC /* Weather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Weather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		60ADD94A1989CFDB0086A6BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		60ADD94C1989CFDB0086A6BC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -137,10 +146,16 @@
 			children = (
 				60ADD9591989CFDB0086A6BC /* LHWAppDelegate.h */,
 				60ADD95A1989CFDB0086A6BC /* LHWAppDelegate.m */,
+				31DA9DEB1C99DDB80002C16A /* DetailedViewController.h */,
+				31DA9DEC1C99DDB80002C16A /* DetailedViewController.m */,
+				31DA9DE81C99C4DE0002C16A /* CityViewController.h */,
+				31DA9DE91C99C4DE0002C16A /* CityViewController.m */,
 				AF207A4519F472D300FD95BF /* images */,
 				60ADD95C1989CFDB0086A6BC /* Images.xcassets */,
 				60ADD9511989CFDB0086A6BC /* Supporting Files */,
 				12E6125A1C501E0F0017AB28 /* Launch Screen.storyboard */,
+				31DA9DE51C99B5A90002C16A /* City.h */,
+				31DA9DE61C99B5A90002C16A /* City.m */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -306,6 +321,9 @@
 			files = (
 				60ADD95B1989CFDB0086A6BC /* LHWAppDelegate.m in Sources */,
 				60ADD9571989CFDB0086A6BC /* main.m in Sources */,
+				31DA9DE71C99B5A90002C16A /* City.m in Sources */,
+				31DA9DEA1C99C4DE0002C16A /* CityViewController.m in Sources */,
+				31DA9DED1C99DDB80002C16A /* DetailedViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
